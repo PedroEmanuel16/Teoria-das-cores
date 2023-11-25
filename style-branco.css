@@ -1,0 +1,16 @@
+.titulo{
+    background-image: url(conchinhas.jpg);
+    color: #fff;
+}
+.conteudo{
+    background-color: #fff;
+}
+.conteudo h2{
+    color: #000000;
+}
+.conteudo p{
+    color: #000000;
+}
+.onda{
+    background-image: url(branco.png);
+}

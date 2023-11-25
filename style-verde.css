@@ -1,0 +1,16 @@
+.titulo{
+    background-image: url(folhas-hortela.jpg);
+    color: #fff;
+}
+.conteudo{
+    background-color: #22B14C;
+}
+.conteudo h2{
+    color: #fff;
+}
+.conteudo p{
+    color: #fff;
+}
+.onda{
+    background-image: url(verde.png);
+}

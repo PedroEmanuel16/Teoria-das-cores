@@ -1,0 +1,16 @@
+.titulo{
+    background-image: url(mar-preto.jpg);
+    color: #fff;
+}
+.conteudo{
+    background-color: #2E2E2E;
+}
+.conteudo h2{
+    color: #fff;
+}
+.conteudo p{
+    color: #fff;
+}
+.onda{
+    background-image: url(preto.png);
+}

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+body{
+    background-image: url(confetes.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo{
+    color: white;
+    font-size: 90px;
+}
+
+.botao-conhecer{
+    margin-top: 20px;
+    font-size: 45px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 5, 5);
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 30px;
+    animation: animacaoBotao 1s ease-in-out infinite alternate;
+}
+.botao-conhecer:hover{
+    background-color: rgb(151, 145, 145);
+    transition: 3s;
+}
+@keyframes animacaoBotao {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+@media (max-width: 1290px){
+    .titulo{
+        font-size: 75px;
+    }
+    .botao-conhecer{
+        padding: 15px 40px;
+    }
+}
+@media (max-width: 1186px){
+    .titulo{
+        font-size: 68px;
+    }
+}
+@media (max-width: 1082px){
+    .titulo{
+        font-size: 65px;
+    }
+    .botao-conhecer{
+        padding: 10px 30px;
+    }
+}
+@media (max-width: 1004px){
+    .titulo{
+        font-size: 60px;
+    }
+}
+@media (max-width: 938px){
+    .titulo{
+        padding: 30px;
+    }
+}
+@media (max-width: 738px){
+    .titulo{
+        padding: 30px;
+        text-align: start;
+    }
+    .botao-conhecer{
+        padding: 5px 15px;
+    }
+}

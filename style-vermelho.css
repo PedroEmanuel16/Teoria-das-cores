@@ -1,0 +1,16 @@
+.titulo{
+    background-image: url(morango.jpg);
+    color: #fff;
+}
+.conteudo{
+    background-color: #e7444b;
+}
+.conteudo h2{
+    color: #fff;
+}
+.conteudo p{
+    color: #fff;
+}
+.onda{
+    background-image: url(vermelho.png);
+}
